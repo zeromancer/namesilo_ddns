@@ -4,10 +4,10 @@
 
 ## Prerequisites:
 * Generate API key in the [api manager](https://www.namesilo.com/account_api.php) at Namesilo 
-* Make sure your system have command `dig` and `xmllint`. If not, install them:
-    * on CentOS: ```sudo yum install bind-utils libxml2```
-    * on Ubuntu/Debian: ```sudo apt-get install dnsutils libxml2-utils```
-    * on Arch Linux ```pacman -Sy libxml2 dnsutils```
+* Make sure your system have command `dig`, `xmllint`, `jq`, `dns-lexicon`. If not, install them:
+    * on CentOS: ```sudo yum install bind-utils libxml2 jq dns-lexicon```
+    * on Ubuntu/Debian: ```sudo apt-get install dnsutils libxml2-utils jq dns-lexicon```
+    * on Arch Linux ```pacman -Sy libxml2 dnsutils jq dns-lexicon```
 
 # Usage
 * Download and save the Bash script
